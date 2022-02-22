@@ -1,0 +1,143 @@
+body {
+  font-family: "Bangla", sans-serif !important;
+  font-size: 1.2rem;
+}
+/* Header Section  */
+.header_section {
+  text-align: center;
+  padding: 20px 0px;
+  background-color: darkslategrey;
+  color: #fff;
+}
+
+.header_section p {
+  color: #f4f4f4;
+}
+
+/* Navigation Menu  */
+.custom_nav {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.096);
+}
+.navbar {
+  padding: 0 !important;
+}
+.nav-link {
+  color: #222 !important;
+  text-decoration: none;
+  padding: 0.5rem 20px !important;
+  border-right: 1px solid #aaaaaa36;
+}
+.nav-link:last-child {
+  border: none;
+}
+
+.nav-link:hover {
+  background-color: darkslategray;
+  color: #fff !important;
+}
+
+/* Main  */
+.main_wrapper {
+  margin: 10px;
+  padding: 10px;
+}
+.content_wrapper {
+  padding: 10px;
+}
+
+.single_blog {
+  margin: 30px 10px 70px 10px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-top: 3px solid darkslategray;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.096);
+  border-radius: 5px;
+}
+
+.blog_footer {
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.blog_details {
+  text-decoration: none;
+  background-color: darkslategray;
+  color: #fff;
+  padding: 5px 10px;
+  transition: 0.3s all ease-in-out;
+}
+.blog_details:hover {
+  color: #fff;
+  box-shadow: 0px 5px 10px rgba(47, 79, 79, 0.329);
+}
+
+/* Side Bar  */
+.siebar {
+  margin: 30px 0px;
+}
+
+.category {
+  margin: 10px 0px 65px 0px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.096);
+}
+.category h3 {
+  text-align: center;
+  background-color: darkslategray;
+  color: #fff;
+  padding: 8px;
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.category a.category_link {
+  display: block;
+  padding: 4px 10px;
+  text-decoration: none;
+  border-bottom: 1px solid #ddd;
+  color: #222;
+}
+
+.category a.category_link:last-child {
+  border-bottom: none;
+}
+.category a.category_link:hover {
+  background-color: #f8f9fa;
+  color: darkslategray;
+}
+.fa {
+  font-size: 0.8rem !important;
+}
+
+/* Footer  */
+.footer_section {
+  text-align: left;
+  color: #fff;
+}
+.footer_top {
+  background-color: rgb(52, 110, 110);
+  padding: 25px 0px;
+}
+.footer_bottom {
+  background-color: darkslategrey;
+  text-align: center;
+  padding: 5px;
+}
+ul {
+  padding-left: 0px !important;
+}
+
+.footer_nav li {
+  list-style: none;
+}
+.footer_nav li a {
+  color: #d3d3d3;
+  text-decoration: none;
+}
+.footer_nav li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
